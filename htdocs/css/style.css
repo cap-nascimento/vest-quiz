@@ -1,0 +1,38 @@
+/* general */
+
+body {
+ background-color: #e2fce1;
+ margin: 0;
+}
+
+#my-header {
+ top: 0;
+ position: fixed;
+ height: 70px;
+ width: 100%;
+ background-color: #8daacc;
+ color: #fff;
+}
+
+#my-footer {
+ position: fixed;
+ height: 70px;
+ width: 100%;
+ background-color: #8daacc;
+ bottom: 0;
+ color: #fff;
+}
+
+.container {
+ margin-top: 100px;
+}
+
+/* buttons  */
+
+.btn {
+ padding: 10px 15px;
+ background-color: #1a5718;
+ color: #fff;
+ border: 0px solid black;
+ border-radius: 5px;
+}
