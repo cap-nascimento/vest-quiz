@@ -18,10 +18,14 @@
 
  <!-- body start -->
  <body>
+  <!-- container begin  -->
   <div class="container">
+   <!-- row login form begin -->
    <div class="row">
-    <div class="col-md-4"></div>
+    <!-- col login form begin-->
     <div class="col-md-4">
+
+     <!-- login form begin -->
      <form action="php/login.php" method="post">
       <div class="form-group">
        <input type="email" class="form-control" name="email"
@@ -33,10 +37,14 @@
       </div>
       <button type="submit" class="btn btn-primary">Entrar!</button>
      </form>
+     <!-- login form end -->
+
     </div>
-    <div class="col-md-4"></div>
+    <!-- col login form end-->
    </div>
+   <!-- row login form end -->
   </div>
+  <!-- container end -->
  </body>
  <!-- body end -->
 
